@@ -5,13 +5,13 @@ const Header = () => {
     <div>
       <nav>
         <span>My Website</span>
-        <Link to="/">Home</Link>
+        <NavLink to="/">Home</NavLink>
         <NavLink to="/users">Users</NavLink>
         <NavLink to="/posts">Posts</NavLink>
-        <Link to="/comments">Comments</Link>
-        <Link to="/todos">Todos</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">contact us</Link>
+        <NavLink to="/comments">Comments</NavLink>
+        <NavLink to="/todos">Todos</NavLink>
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/contact">contact us</NavLink>
       </nav>
     </div>
   );
